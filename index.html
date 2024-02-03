@@ -6,12 +6,12 @@
     <title>Fuse</title>
     <link rel="stylesheet" href="./src/output.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<body>
+
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://kit.fontawesome.com/1e8c7a6e4d.js" crossorigin="anonymous"></script>
   </head>
-  <body class="font-nunito">
-    <header class="text-gray-200 bg-gray-600 body-font">
+  <body class="font-nunito dark:bg-gray-600 duration:1000">
+    <header class="text-black body-font dark:text-white">
       <div
         class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
       >
@@ -19,7 +19,7 @@
           <div>
             
             <span
-              class="font-extralight text-3xl cursor-pointer text-teal-600 font-nunito text-teal-600"
+              class="font-extralight text-3xl cursor-pointer text-teal-600 font-nunito"
             >
               <img src="./src/img/logo.png" alt="fuse logo" class="h-10 inline" />
               <span class="font-bold">fuse</span>lab</span
@@ -32,8 +32,12 @@
           <a class="mr-5 hover:text-white">Services</a>
           <a class="mr-5 hover:text-white">Contact</a>
         </nav>
+        <div>
+          <img src="./src/img/sun.png" class="sun h-7 md:h-10 mx-5 cursor-pointer" alt="">
+          <img src="./src/img/moon.png" class="moon h-7 md:h-10 mx-5 cursor-pointer" alt="">
+        </div>
         <button
-          class="font-nunito inline-flex items-center bg-teal-600 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 duration-300 hover:border-solid border-white-600 rounded text-base mt-4 md:mt-0"
+          class=" text-white font-nunito inline-flex items-center bg-teal-600 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 duration-300 hover:border-solid border-white-600 rounded text-base mt-4 md:mt-0"
         >
           Get a Quote
           <svg
@@ -51,7 +55,7 @@
       </div>
     </header>
     <!-- ############ BODY:HERO ################ -->
-    <section class="text-gray-600 body-font bg-gray-400">
+    <section class="text-gray-900 body-font">
       <div
         class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
       >
@@ -67,7 +71,7 @@
           class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
         >
           <h1
-            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+            class="title-font text-gray-900 dark:text-white duration-1000 sm:text-4xl text-3xl mb-4 font-medium"
           >
             Get yourself <br class="hidden lg:inline-block" /> <div class="flex justify-center align-center"><span>fu</span><span><img src="./src/img/s.svg"></span>ed today <span id="chain" class="fa text-l"></span></div>
             
